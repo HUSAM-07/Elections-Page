@@ -7,7 +7,7 @@ st.image(image)
 
 
 def main():
-    st.title("Candidate Election Display Page")
+    st.title("My Agendas")
     st.header("Hello folks! I am Raj Mrittik and I am running for Vice President in the student council elections 2023-2024.")
     st.subheader("Please have a look at my agendas:")
 
