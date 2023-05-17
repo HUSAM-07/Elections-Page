@@ -1,9 +1,6 @@
 import streamlit as st
 from PIL import Image
 
-image = Image.open('"Raj Mrittik Photo.jpg"')
-
-st.image(image, caption='Standing for VP')
 
 
 def main():
