@@ -5,7 +5,7 @@ from PIL import Image
 
 image = Image.open('Raj.jpg')
 
-st.image(image,width=400)
+st.image(image)
 
 def main():
     st.title("My Agendas")
