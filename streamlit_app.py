@@ -5,8 +5,6 @@ image = Image.open('Raj.jpg')
 
 st.image(image)
 
-st.set_page_config(page_title="Raj Mrittik Agendas", page_icon = Raj.jpg)
-
 def main():
     st.title("My Agendas")
     st.header("Hello folks! I am Raj Mrittik and I am running for Vice President in the student council elections 2023-2024.")
