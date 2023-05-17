@@ -5,6 +5,7 @@ image = Image.open('Raj.jpg')
 
 st.image(image)
 
+st.set_page_config(page_title="Raj Mrittik Agendas", page_icon = Raj.jpg)
 
 def main():
     st.title("My Agendas")
