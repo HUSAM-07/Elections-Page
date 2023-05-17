@@ -3,9 +3,9 @@ from PIL import Image
 
 
 
-bottom_image = st.file_uploader('Raj', type='jpg', key=6)
-if bottom_image is not None:
-    st.image(bottom_image)
+image = Image.open('Raj.jpg')
+
+st.image(image,width=400)
 
 def main():
     st.title("My Agendas")
