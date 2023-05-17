@@ -1,9 +1,11 @@
 import streamlit as st
 from PIL import Image
 
-image = Image.open('Raj.jpg')
 
-st.image(image)
+
+bottom_image = st.file_uploader('Raj', type='jpg', key=6)
+if bottom_image is not None:
+    st.image(bottom_image)
 
 def main():
     st.title("My Agendas")
