@@ -1,4 +1,9 @@
 import streamlit as st
+from PIL import Image
+
+image = Image.open('"C:\Users\UNIHU\Desktop\AI\Raj Mritik\Raj-Mritik\Raj Mrittik Photo.jpg"')
+
+st.image(image, caption='Standing for VP')
 
 
 def main():
