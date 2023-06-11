@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=space+grotesk&pause=1000&color=2063F7&width=435&lines=Happy+Birthday%2C+Mr+VP)](https://git.io/typing-svg)
+st.markdown([![Typing SVG](https://readme-typing-svg.herokuapp.com?font=space+grotesk&pause=1000&color=2063F7&width=435&lines=Happy+Birthday%2C+Mr+VP+Treat+Is+Pending)](https://git.io/typing-svg)")
 
 image = Image.open('Raj.jpg')
 
